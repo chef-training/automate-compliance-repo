@@ -19,7 +19,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[automate-compliance-ssh-remediation::default]
+      - recipe[ssh-remediation::default]
     verifier:
       inspec_tests:
         - test/integration/default
